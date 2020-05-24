@@ -1,6 +1,8 @@
 # hypertest
 
-automatically run tests when redefining common lisp functions
+automatically run tests when redefining common lisp functions.
+
+very incomplete - please help! add support for your own use-cases, i want this to be a generally useful tool for the entire common lisp community.
 
 ## overview
 
@@ -16,6 +18,7 @@ progress:
   - [ ] repl compilation - will have additional benefit of working with other swank frontends e.g. slimv
   - [ ] automatically load when slime loaded
   - [ ] work when compiling functions using something other than defun
+  - [ ] sly support
 - [ ] convenience
   - [ ] automatic/persistent test adding
   - [ ] ergonomic test adding
@@ -26,6 +29,12 @@ progress:
   - [ ] push notification to phone - pushover
   - [ ] blink(1)
   - [ ] separate GUI/TUI report window
+- [ ] hook methods
+  - [x] emacs slime hooks
+  - [ ] network proxy for slime
+  - [ ] implementation-specific support
+  - [ ] poll function objects
+  - [ ] inspect on-disk artifacts
 
 ## install
 
